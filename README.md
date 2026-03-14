@@ -5,8 +5,6 @@ GameControlSystem is an example of how design patterns can look when developing 
 
 ---------
 
-# Design Patterns Used
-
 # Observer
 The Observer pattern is used to notify multiple parts of the system when something changes.
 
@@ -57,7 +55,7 @@ Instead of interacting with many classes directly, the main program communicates
 
 This keeps the main program clean and easy to understand.
 
-# Example Output
+## Example Output
 Game Control System started
 Door opened
 Dashboard: Door opened
@@ -69,3 +67,5 @@ Music started
 
 Replaying last commands...
 
+# How to run
+Clone the repo to your local directory and open .csproj using Visual Studio

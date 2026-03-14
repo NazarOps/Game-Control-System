@@ -6,9 +6,9 @@ GameControlSystem is an example of how design patterns can look when developing 
 
 ---------
 
-# Design Patterns Used
+# Design Patterns Used:
 
-## Observer
+# Observer
 The Observer pattern is used to notify multiple parts of the system when something changes.
 
 In this project, devices such as Door, Light, and MusicPlayer act as subjects.
@@ -16,7 +16,7 @@ Observers like DashboardObserver, LoggerObserver, and AuditObserver subscribe to
 
 When a device changes state (for example when a door opens), all attached observers automatically receive an update.
 
-## Command
+# Command
 The Observer pattern is used to notify multiple parts of the system when something changes.
 
 In this project, devices such as Door, Light, and MusicPlayer act as subjects.
@@ -24,37 +24,33 @@ Observers like DashboardObserver, LoggerObserver, and AuditObserver subscribe to
 
 When a device changes state (for example when a door opens), all attached observers automatically receive an update.
 
-## Strategy
+# Strategy
 The Strategy pattern allows the system to change behavior depending on the current mode.
 
 Different game modes are implemented as strategies:
 
 StealthMode
-
 CombatMode
-
 ExplorationMode
 
 Each mode decides whether commands are allowed to execute by implementing the IModeStrategy interface.
 
 This allows the system behavior to change without modifying the core logic.
 
-## Facade
+# Facade
 The Strategy pattern allows the system to change behavior depending on the current mode.
 
 Different game modes are implemented as strategies:
 
 StealthMode
-
 CombatMode
-
 ExplorationMode
 
 Each mode decides whether commands are allowed to execute by implementing the IModeStrategy interface.
 
 This allows the system behavior to change without modifying the core logic.
 
-## Singleton
+# Singleton
 The Facade pattern is used to simplify interaction with the system.
 
 The GameFacade class acts as a single entry point that connects commands, devices, and strategies.
@@ -62,9 +58,8 @@ Instead of interacting with many classes directly, the main program communicates
 
 This keeps the main program clean and easy to understand.
 
-## Example Output
+# Example Output
 Game Control System started
-
 Door opened
 Dashboard: Door opened
 LOG: Door opened

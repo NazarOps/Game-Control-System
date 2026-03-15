@@ -90,7 +90,7 @@ Clone the repo to your local directory and open .csproj using Visual Studio
 # Additional Remarks
 The point of this project is not to build an advanced gaming control system, but instead to simply demonstrate design patterns and their purpose
 
-## Reflection
+# Reflection
 
 Design patterns help structure code and make systems easier to extend and maintain. 
 However, they should not be overused in very small projects, since they can introduce unnecessary complexity. 

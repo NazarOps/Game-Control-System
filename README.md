@@ -80,6 +80,9 @@ GameControlSystem
 ├── UML/UML.png
 └── Program.cs
 
+# UML Diagram
+
+![UML Diagram](UML/UML.png)
 
 # How to run
 Clone the repo to your local directory and open .csproj using Visual Studio
